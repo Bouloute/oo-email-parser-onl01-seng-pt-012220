@@ -13,6 +13,6 @@ class EmailAddressParser
   def parse
     parsed = @email_addresses.split(/[, ]/)
     parsed.reject{|element| element.empty?}
-    parsed
+    
   end
 end
